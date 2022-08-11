@@ -1,0 +1,36 @@
+.search-wrapper {
+    padding-top: 2rem;
+}
+
+.search-main {
+    height: 3.5rem;
+    width: 62rem;
+    box-shadow: 0.4rem 0.4rem 1.2rem 0px var(--tertiary);
+    font-size: 1.1rem;
+    color: var(--primary);
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.search-field {
+    width: 55rem;
+    padding: 0 1.5rem 0 1.5rem;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+}
+
+.search-field::placeholder {
+    color: var(--tertiary);
+}
+
+.search-btn {
+    outline: none;
+    border: none;
+    background-color: var(--cta);
+    color: var(--bg);
+    height: 3.5rem;
+    width: 5rem;
+    font-size: 1.5rem;
+}

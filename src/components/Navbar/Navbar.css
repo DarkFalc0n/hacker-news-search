@@ -1,0 +1,22 @@
+.navbar-wrapper {
+    background-color: var(--primary);
+}
+
+.navbar-logo {
+    width: 80rem;
+    margin: auto;
+    padding: 2rem;
+    padding-left: 0rem;
+}
+
+.navbar-logo .navbar-logo-title {
+    color: var(--bg);
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+
+.navbar-logo .navbar-highlight {
+    color: var(--cta);
+    display: inline-block;
+}
