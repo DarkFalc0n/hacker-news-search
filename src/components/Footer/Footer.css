@@ -1,9 +1,10 @@
 .footer-wrapper {
     background-color: var(--tertiary);
-    padding: 3rem 0 3rem 0;
-    position: absolute;
-    bottom: 0;
+    padding: 2rem 0 2rem 0;
+    /* position: absolute;
+    bottom: 0; */
     width: 100%;
+    margin-top: auto;
 }
 
 .footer-text {

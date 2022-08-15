@@ -1,0 +1,33 @@
+.results-wrapper {
+    margin: auto;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+    width: 80rem;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cta);
+}
+
+.result-wrapper {
+    width: 100%;
+    background-color: #fff;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    margin-top: 1rem;
+    box-shadow: 0.2rem 0.2rem 0.8rem 0px var(--tertiary);
+}
+
+.result-title {
+    color: var(--primary);
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--primary);
+}
+
+.result-author {
+    margin-top: 0.5rem;
+    color: var(--cta);
+    font-size: 0.9rem;
+}
