@@ -1,0 +1,44 @@
+.lds-hns {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+
+.lds-hns div {
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    width: 16px;
+    animation: lds-hns 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    background-color: var(--cta);
+}
+
+.lds-hns div:nth-child(1) {
+    left: 8px;
+    animation-delay: -0.24s;
+}
+
+.lds-hns div:nth-child(2) {
+    left: 32px;
+    animation-delay: -0.12s;
+}
+
+.lds-hns div:nth-child(3) {
+    left: 56px;
+    animation-delay: 0;
+}
+
+@keyframes lds-hns {
+    0% {
+        top: 0.5rem;
+        height: 4rem;
+    }
+
+    50%,
+    100% {
+        top: 1.5rem;
+        height: 2rem;
+    }
+}

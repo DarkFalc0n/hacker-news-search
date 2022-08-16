@@ -9,6 +9,9 @@
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--cta);
+    opacity: 0;
+    transform: translateY(5rem);
+    animation: fadeIn 0.3s ease forwards;
 }
 
 .result-wrapper {
@@ -17,6 +20,9 @@
     padding: 1rem 1.5rem 1rem 1.5rem;
     margin-top: 1rem;
     box-shadow: 0.2rem 0.2rem 0.8rem 0px var(--tertiary);
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
 }
 
 .result-title {
@@ -30,4 +36,19 @@
     margin-top: 0.5rem;
     color: var(--cta);
     font-size: 0.9rem;
+}
+
+.disabled-text {
+    color: var(--tertiary);
+}
+
+.result-link-icon {
+    color: var(--cta);
+    opacity: 0;
+    margin-top: 1rem;
+}
+
+.result-wrapper:hover>.result-link-icon {
+    opacity: 1;
+    transition: 0.3s ease-in-out;
 }

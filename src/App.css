@@ -7,4 +7,24 @@ body {
     font-family: 'Open Sans', sans-serif;
     min-height: 100vh;
     max-width: 100vw;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
 }

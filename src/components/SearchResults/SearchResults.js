@@ -6,7 +6,7 @@ import "./SearchResults.css";
 const SearchResults = (props) => {
     return (
         <div className="results-wrapper">
-            Results: 
+            {(props.results.hits.length === 0) ? "It seems there aren't any great matches...": "Results:"} 
             {props.results.hits.map(({ objectID, title, author, points }) => (
                 <Result {...{objectID, title, author, points}} />
             ))}

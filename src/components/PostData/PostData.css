@@ -1,0 +1,21 @@
+.postdata-wrapper {
+    margin: 3rem auto;
+    width: 82rem;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0.4rem 0.4rem 1.2rem 0px var(--tertiary);
+
+}
+
+.postdata-title {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.postdata-author {
+    color: var(--cta);
+    margin: 1rem 0 1rem 0;
+    font-size: 1.1rem;
+}
