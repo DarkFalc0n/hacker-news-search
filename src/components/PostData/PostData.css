@@ -1,8 +1,8 @@
 .postdata-wrapper {
     margin: 3rem auto;
     width: 82rem;
-    padding: 1rem;
-    background-color: #fff;
+    padding: 2rem;
+    background-color: var(--card);
     box-shadow: 0.4rem 0.4rem 1.2rem 0px var(--tertiary);
 
 }
@@ -15,7 +15,44 @@
 }
 
 .postdata-author {
-    color: var(--cta);
-    margin: 1rem 0 1rem 0;
+    margin: 0rem 0 0.2rem 0;
     font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--secondary);
 }
+
+.postdata-points {
+    color: var(--cta);
+    display: inline;
+    font-weight: 500;
+    margin-top: auto;
+}
+
+.postdata-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+.date-text-size {
+    font-size: 0.9rem;
+}
+
+.post-link {
+    padding: 0.8rem 1.6rem 0.8rem 1.6rem;
+    background-color: var(--cta);
+    color: var(--card);
+    font-size: 1.2rem;
+    margin: 1.2rem auto 1.2rem auto;
+    width: 8rem;
+    text-align: center;
+}
+
+.postdata-comments-header {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    font-weight: 700;
+}
+
+.postdata-comments {}

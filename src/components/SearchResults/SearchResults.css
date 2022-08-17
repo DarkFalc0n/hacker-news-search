@@ -16,7 +16,7 @@
 
 .result-wrapper {
     width: 100%;
-    background-color: #fff;
+    background-color: var(--card);
     padding: 1rem 1.5rem 1rem 1.5rem;
     margin-top: 1rem;
     box-shadow: 0.2rem 0.2rem 0.8rem 0px var(--tertiary);
@@ -38,9 +38,6 @@
     font-size: 0.9rem;
 }
 
-.disabled-text {
-    color: var(--tertiary);
-}
 
 .result-link-icon {
     color: var(--cta);

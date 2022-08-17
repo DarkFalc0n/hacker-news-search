@@ -7,23 +7,23 @@ import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons/faUpRight
 
 const Result = (props) => {
     return (
-    <Link to={`/details/${props.objectID}`}>
-        <div key={props.objectID} className="result-wrapper">
+        <Link to={`/details/${props.objectID}`}>
+            <div key={props.objectID} className="result-wrapper">
                 <div>{(props.title === "" || props.title === null) ?
-                    <div className="result-title disabled-text">
+                    <div className="result-title text-disabled text-italic">
                         No title available
-                    </div> : 
+                    </div> :
                     <div className="result-title ">
                         {props.title}
                     </div>
-                    }
-            <div className="result-author">
-                - { props.author }
-            </div></div>
-            <FontAwesomeIcon icon={faUpRightFromSquare} className="result-link-icon" />
-        </div>
-    </Link>
-  )
+                }
+                    <div className="result-author">
+                        - {props.author}
+                    </div></div>
+                <FontAwesomeIcon icon={faUpRightFromSquare} className="result-link-icon" />
+            </div>
+        </Link>
+    )
 }
 
 export default Result

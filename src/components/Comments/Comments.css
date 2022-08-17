@@ -1,0 +1,28 @@
+.comment-wrapper {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+p {
+    margin: 0;
+}
+
+.comment-indent {
+    margin-left: 2rem;
+}
+
+.comment-author {
+    color: var(--cta);
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.comment-text {
+    font-weight: 400;
+    background-color: var(--bg);
+    padding: 0.5rem;
+}
+
+a {
+    color: var(--cta);
+}

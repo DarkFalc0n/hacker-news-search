@@ -23,14 +23,14 @@ const HomePage = () => {
   }
 
   return (
-      <div className="homepage-wrapper">
-        <Navbar />
+    <div className="homepage-wrapper">
+      <Navbar />
       <SearchBar fetch={fetchResults} resultState={resultState} />
       {(resultState === "loaded") ? <SearchResults results={results} resultState={resultState} /> : <></>}
       {(resultState === "loading") && <LoadingScreen />}
       {(resultState === "networkerror") && <NetworkError />}
-      <Footer />        
-      </div>    
+      <Footer />
+    </div>
   )
 }
 

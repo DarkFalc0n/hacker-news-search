@@ -4,5 +4,25 @@
     --secondary: #403d39;
     --primary: #252422;
     --cta: #eb5e28;
-    height: 40vh;
+    --card: #fff;
+    --accent: #868179;
+}
+
+.text-color-cta {
+    color: var(--cta);
+    display: inline;
+}
+
+.text-color-accent {
+    color: var(--accent);
+    display: inline;
+}
+
+.text-italic {
+    font-style: italic;
+    display: inline;
+}
+
+.text-disabled {
+    color: var(--tertiary);
 }
