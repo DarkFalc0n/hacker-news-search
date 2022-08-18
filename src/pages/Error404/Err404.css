@@ -1,0 +1,38 @@
+.home-link {
+    padding: 0.8rem 1.6rem 0.8rem 1.6rem;
+    background-color: var(--cta);
+    color: var(--card);
+    font-size: 1.2rem;
+    margin: 2rem auto 1.2rem auto;
+    width: 10rem;
+    text-align: center;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.errorpage-wrapper {
+    width: 40rem;
+    text-align: center;
+    margin: auto;
+    font-size: 12rem;
+    font-weight: 800;
+    color: var(--cta);
+    padding: 0 0 2rem 0;
+}
+
+.error-message {
+    font-size: 1.2rem;
+    color: var(--accent);
+    font-weight: 500;
+}
+
+.err404page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#home-button {
+    color: var(--card);
+}

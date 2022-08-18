@@ -1,10 +1,12 @@
 .postdata-wrapper {
     margin: 3rem auto;
-    width: 82rem;
+    width: 76rem;
     padding: 2rem;
     background-color: var(--card);
     box-shadow: 0.4rem 0.4rem 1.2rem 0px var(--tertiary);
-
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeIn 0.3s ease-in-out forwards;
 }
 
 .postdata-title {
@@ -15,7 +17,7 @@
 }
 
 .postdata-author {
-    margin: 0rem 0 0.2rem 0;
+    margin: 2rem 0 0.2rem 0;
     font-size: 1.1rem;
     font-weight: 500;
     color: var(--secondary);
@@ -42,17 +44,20 @@
 .post-link {
     padding: 0.8rem 1.6rem 0.8rem 1.6rem;
     background-color: var(--cta);
-    color: var(--card);
     font-size: 1.2rem;
     margin: 1.2rem auto 1.2rem auto;
     width: 8rem;
     text-align: center;
+    cursor: pointer;
+}
+
+#article-link {
+    color: var(--card);
 }
 
 .postdata-comments-header {
     font-size: 1.2rem;
     margin-top: 2rem;
     font-weight: 700;
+    cursor: pointer;
 }
-
-.postdata-comments {}

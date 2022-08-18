@@ -1,12 +1,15 @@
 .navbar-wrapper {
     background-color: var(--primary);
+
 }
 
 .navbar-logo {
     width: 80rem;
     margin: auto;
-    padding: 2rem;
-    padding-left: 0rem;
+    padding: 2rem 0 2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .navbar-logo .navbar-logo-title {
@@ -19,4 +22,15 @@
 .navbar-logo .navbar-highlight {
     color: var(--cta);
     display: inline-block;
+}
+
+.navbar-repo {
+    color: var(--primary);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: var(--bg);
+    font-weight: 500;
+}
+
+.navbar-link {
+    color: var(--secondary);
 }
