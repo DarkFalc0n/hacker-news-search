@@ -14,7 +14,7 @@ const PostData = (props) => {
   const [isCommentsExpanded, setCōmmentsExpanded] = useState(false);
 
   const fetchDetails = useCallback(async (objId) => {
-    const response = await fetch(`http://hn.algolia.com/api/v1/items/${objId}`).catch((err) => {
+    const response = await fetch(`https://hn.algolia.com/api/v1/items/${objId}`).catch((err) => {
       console.log(err);
     })
     const detailsData = await response.json();

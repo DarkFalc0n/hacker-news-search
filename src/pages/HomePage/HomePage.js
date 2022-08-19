@@ -14,7 +14,7 @@ const HomePage = () => {
 
   const fetchResults = async (searchTerm) => {
     setResultState("loading");
-    const response = await fetch(`http://hn.algolia.com/api/v1/search?query=${searchTerm}`).catch(err => {
+    const response = await fetch(`https://hn.algolia.com/api/v1/search?query=${searchTerm}`).catch(err => {
       setResultState("networkerror")
     });
     const fetchedResults = await response.json();
